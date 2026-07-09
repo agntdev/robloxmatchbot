@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/rank",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Quickly update reported rank"
+            }
+          }
+        ],
+        "send": {
+          "text": "/rank"
+        }
+      }
+    ]
+  }
+]
