@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/tags",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Manage role preference tags"
+            }
+          }
+        ],
+        "send": {
+          "text": "/tags"
+        }
+      }
+    ]
+  }
+]
